@@ -15,7 +15,7 @@ export class InputDialogServiceService {
   async showPrompt(item?, index?) {
     const alert = await this.alertController.create({
       header: item ? 'Edit Item' : 'Add Item',
-      message: item ? 'Please edit item' : 'Pleaseenter item...',
+      message: item ? 'Please edit item' : 'Please enter item...',
       inputs: [
         {
           name: 'name',
